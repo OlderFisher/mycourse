@@ -44,6 +44,9 @@ class StarterSite extends Timber\Site {
 		add_filter( 'get_twig', array( $this, 'add_to_twig' ) );
 		add_action( 'init', array( $this, 'register_post_types' ) );
 		add_action( 'init', array( $this, 'register_taxonomies' ) );
+		add_action( 'wp_enqueue_scripts', array($this, 'register_styles_and_scripts' ));
+
+
 		parent::__construct();
 	}
 	/** This is where you can register custom post types. */
@@ -119,6 +122,35 @@ class StarterSite extends Timber\Site {
 
 		add_theme_support( 'menus' );
 	}
+
+
+	/** Registering Theme Cryptocurrency styles and scripts'.
+	 *
+	 */
+	 public function register_styles_and_scripts()
+     {
+         $version = '0.1';
+
+				 // Register styles
+         wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . "/assets/css/lib/bootstrap.min.css", array(), $version);
+         wp_enqueue_style('owl-carousel', get_stylesheet_directory_uri() . "/assets/css/lib/owl.carousel.min.css", array(), $version);
+         wp_enqueue_style('slick', get_stylesheet_directory_uri() . "/assets/css/lib/slick.css", array(), $version);
+         wp_enqueue_style('animation', get_stylesheet_directory_uri() . "/assets/css/lib/animations.min.css", array(), $version);
+         wp_enqueue_style('font', "https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700,700i,800,900", array(), $version);
+         wp_enqueue_style('main-style', get_stylesheet_directory_uri() . "/style.css", array(), $version);
+         wp_enqueue_style('responsive', get_stylesheet_directory_uri() . "/assets/css/responsive.css", array(), $version);
+
+				 //Register scripts
+         wp_enqueue_script('jQuery', get_stylesheet_directory_uri() . "/assets/js/lib/jquery-3.2.1.js", array(),'3.2.1' , true);
+         wp_enqueue_script('popper', get_stylesheet_directory_uri() . "/assets/js/lib/popper.min.js", array('jQuery'), $version, true);
+         wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . "/assets/js/lib/bootstrap.min.js", array('jQuery'), $version, true);
+         wp_enqueue_script('owl-carousel', get_stylesheet_directory_uri() . "/assets/js/lib/owl.carousel.min.js", array('jQuery'), $version, true);
+         wp_enqueue_script('masonry', get_stylesheet_directory_uri() . "/assets/js/lib/masonry.pkgd.min.js", array('jQuery'), $version, true);
+         wp_enqueue_script('slick', get_stylesheet_directory_uri() . "/assets/js/lib/slick.min.js", array('jQuery'), $version, true);
+         wp_enqueue_script('animate', get_stylesheet_directory_uri() . "/assets/js/lib/css3-animate-it.js", array('jQuery'), $version, true);
+         wp_enqueue_script('main-js', get_stylesheet_directory_uri() . "/assets/js/main.js", array('jQuery'), $version, true);
+
+     }
 
 	/** This Would return 'foo bar!'.
 	 *
