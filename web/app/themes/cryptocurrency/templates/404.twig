@@ -1,5 +1,21 @@
 {% extends "base.twig" %}
 
 {% block content %}
-	Sorry, we couldn't find what you're looking for.
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <!--===================== Error Page ========================-->
+        <div class="text">
+          <h1><span>Oops!</span>Page not found.</h1>
+          <a href="{{ site.url }}"><img src="{{ site.theme.link }}/assets/img/back.svg" alt="back">Go Back</a>
+        </div>
+        <!--===================== End of Error Page ========================-->
+      </div>
+    </div>
+  </div>
+
+
 {% endblock %}

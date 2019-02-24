@@ -1,9 +1,19 @@
-{% if menu %}
-	<ul>
-	{% for item in menu %}
-		<li class="{{ item.classes | join(' ') }}">
-			<a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
-			{% include "menu.twig" with {'menu': item.get_children} %}
+{% if header_menu %}
+	<ul class="nav-menu list-unstyled list-inline">
+	{% for item in header_menu.items %}
+		<li class="list-inline-item {{ item.classes | join(' ') }}">
+			<a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}<span>-</span></a>
+			{% if item.children %}
+				<div class="sub-menu">
+					<ul>
+						{% for child in item.children %}
+							<li>
+								<a href="{{ child.link }}">{{ child.title }}</a>
+							</li>
+					{% endfor %}
+				</ul>
+				</div>
+			{% endif %}
 		</li>
 	{% endfor %}
 	</ul>
