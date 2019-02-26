@@ -313,7 +313,7 @@ $( document ).ready(function() {
 		loop: true,
 		responsiveRefreshRate : 200,
 
-		navText: ['<img src="assets/img/slider-arrow-left.svg">', '<img src="assets/img/slider-arrow-right.svg">'],
+		navText: ['<img src="./app/themes/cryptocurrency/assets/img/slider-arrow-left.svg">', '<img src="./app/themes/cryptocurrency/assets/img/slider-arrow-right.svg">'],
 	}).on('changed.owl.carousel', syncPosition);
 
 	sync2

@@ -1,173 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e21e20b-383b-44c8-aac4-becaaa8d8025" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/archive.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/lib/animations.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/lib/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/lib/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/lib/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/style-straight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/fonts/Myriad-Pro Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/fonts/Myriad-Pro Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/fonts/Myriad-Pro Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/fonts/Myriad-Pro Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/404-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/about-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/arrow-faq.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/arrow-left-slider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/arrow-right-slider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/arrow-top-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/back.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background-about-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background-about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background-price-block-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background-price-block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background-team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/bg-footer-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/bg-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/bitcoin-element.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/bitcoin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/blog-list.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/calculator-bg-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/calculator-bg-straight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/calculator-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/cloud2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/copyright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/drag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/email.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/ethereum.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/f-social.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/faq-bg-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/faq-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/first-section-bg-contact-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/first-section-bg-contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/first-section-bg-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/first-section-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/first-section-not-images-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/first-section-not-images.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/form-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/g-social.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/graphic1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-about.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-about2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-about3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-about4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-about5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-about6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/icon-phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/in-social.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/iota.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/iphone-background-straight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/iphone-background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/iphone-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/line-bitcoin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/log-bitcoin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-04.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-05.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-06.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-07.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-08.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-09.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/main_page_icon-10.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/map-marker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/mini-cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/new-image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/news-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/omisego.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/our-price-icon-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/our-price-icon-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/our-price-icon-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/our-price-icon-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/reason-icon1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/reason-icon2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/reason-icon3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/reason-icon4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/reply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/review-img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/ripple.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/shutterstock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/single-post-inisde.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/single-post-inisde2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/single-post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/slider-arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/slider-arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/slider-logo-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/social-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/t-social.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/team-slider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/team2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/team3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/img/team6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/css3-animate-it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/jquery-3.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/lib/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/author.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/bin/install-wp-tests.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/single.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/static/no-timber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/static/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/404.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/archive.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/author.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/base.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/comment-form.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/comment.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/footer.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/html-header.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/index.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/menu.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/page-plugin.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/page.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/partial/pagination.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/search.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/sidebar.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/single-password.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/single.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/tease-post.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/templates/tease.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/tests/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/timber-starter-theme/tests/test-timber-starter-theme.php" beforeDir="false" />
-    </list>
+    <list default="true" id="6e21e20b-383b-44c8-aac4-becaaa8d8025" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,16 +13,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="339">
+              <caret line="139" column="85" selection-start-line="139" selection-start-column="85" selection-end-line="139" selection-end-column="85" />
+              <folding>
+                <element signature="e#6#152#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/base.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/menu.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/footer.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>copyri</find>
+      <find>slider</find>
+      <find>drag.png</find>
+      <find>.svg</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,9 +77,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/404.twig" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/header.twig" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/page.php" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/page-home.php" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/page-home.twig" />
+        <option value="$PROJECT_DIR$/_workflow/uploads/elements-cryptocurrency-html-template-HXRYPN-2018-03-13/html/index.html" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/footer.twig" />
         <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/functions.php" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/base.twig" />
+        <option value="$PROJECT_DIR$/web/app/themes/cryptocurrency/style.css" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
     <include_path>
@@ -233,6 +127,32 @@
             <path>
               <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="_workflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="_workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="_workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="elements-cryptocurrency-html-template-HXRYPN-2018-03-13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="_workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="elements-cryptocurrency-html-template-HXRYPN-2018-03-13" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,6 +184,16 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="cryptocurrency" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cryptocurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
@@ -274,6 +204,15 @@
               <item name="cryptocurrency" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mycourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cryptocurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,18 +251,19 @@
       <option name="presentableId" value="Default" />
       <updated>1551030262366</updated>
       <workItem from="1551030263574" duration="33000" />
-      <workItem from="1551030312557" duration="555000" />
+      <workItem from="1551030312557" duration="5048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="588000" />
+    <option name="totallyTimeSpent" value="5081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1353" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12958533" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.16746412" />
+      <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.16746412" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -347,10 +287,135 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/header.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/404.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_workflow/uploads/elements-cryptocurrency-html-template-HXRYPN-2018-03-13/html/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" lean-forward="true" selection-end-line="27" />
+          <folding>
+            <element signature="e#6#670#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="339">
+          <caret line="139" column="85" selection-start-line="139" selection-start-column="85" selection-end-line="139" selection-end-column="85" />
+          <folding>
+            <element signature="e#6#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_workflow/uploads/elements-cryptocurrency-html-template-HXRYPN-2018-03-13/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16916">
+          <caret line="717" column="71" selection-start-line="717" selection-start-column="71" selection-end-line="717" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/page.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_workflow/uploads/elements-cryptocurrency-html-template-HXRYPN-2018-03-13/html/index-straight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="315" column="128" selection-start-line="315" selection-start-column="128" selection-end-line="315" selection-end-column="128" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12508">
+          <caret line="1109" column="23" selection-start-line="1109" selection-start-column="17" selection-end-line="1109" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/page-home.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3950">
+          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#6#670#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/menu.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/base.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/themes/cryptocurrency/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
