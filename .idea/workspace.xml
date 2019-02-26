@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e21e20b-383b-44c8-aac4-becaaa8d8025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/page-home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/page-home.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/404.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/404.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/menu.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/cryptocurrency/templates/menu.twig" afterDir="false" />
-    </list>
+    <list default="true" id="6e21e20b-383b-44c8-aac4-becaaa8d8025" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,12 +251,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551030262366</updated>
       <workItem from="1551030263574" duration="33000" />
-      <workItem from="1551030312557" duration="4870000" />
+      <workItem from="1551030312557" duration="5048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4903000" />
+    <option name="totallyTimeSpent" value="5081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1353" extended-state="6" />

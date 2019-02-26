@@ -1,0 +1,122 @@
+{% extends "base.twig" %}
+
+
+{% block header %}
+
+  <body class="questions-page">
+    <div class="wrapper">
+
+      {% include "header.twig"%}
+
+{% endblock %}
+
+
+{% block content %}
+
+<!--===================== First Section ========================-->
+	<div class="first-section animatedParent">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-12 animated bounceInLeft">
+					<div class="text">
+						<h1>FAQ</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-12 animated bounceInRight position-relative">
+					<form class="custom-form">
+						<h4>Send us a Question</h4>
+						<div class="form-group first">
+							<label for="exampleInputEmail1">Your Name</label>
+							<input type="email" class="form-control" id="exampleInputEmail1">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail2">Email Address</label>
+							<input type="email" class="form-control" id="exampleInputEmail2">
+						</div>
+						<div class="form-group last">
+							<label for="exampleInputEmail1">Your question</label>
+							<textarea name="massage"></textarea>
+						</div>
+						<div class="text-right">
+							<button type="submit" class="see-brd-btn">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="cloud">&nbsp;</div>
+		<div class="cloud two">&nbsp;</div>
+		<div class="cloud-two">&nbsp;</div>
+		<div class="mini-cloud"></div>
+		<div class="mini-cloud two"></div>
+	</div>
+	<!--===================== End of First Section ========================-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-1"></div>
+			<div class="col-xl-10 pr-2 pl-2">
+				<div class="text-head text-center">
+					<h5>Questions</h5>
+					<h2 class="h2-main">Questions you often ask</h2>
+				</div>
+				<!--===================== Accordion ========================-->
+				<div id="accordion" class="animatedParent">
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-250">
+						<div class="accordion-header" id="headingOne">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">How to Identify a Bitcoin or Ethereum Cloud Mining Scam?<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-500">
+						<div class="accordion-header" id="heading2">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">What is a Merkle Tree?<svg version="1.1" id="Layer_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-750">
+						<div class="accordion-header" id="heading3">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">How does a Bitcoin node verify a transaction?<svg version="1.1" id="Layer_17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-1000">
+						<div class="accordion-header" id="heading4">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">How Does Bitcoin Cryptography work?<svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+				</div>
+				<!--===================== End of Accordion ========================-->
+			</div>
+			<div class="col-xl-1"></div>
+		</div>
+	</div>
+
+
+
+{% endblock %}	

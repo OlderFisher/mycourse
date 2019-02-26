@@ -1,0 +1,280 @@
+{% extends "base.twig" %}
+
+{% block header %}
+
+	<body class="calculator-page"> 
+		<div class="wrapper">
+
+					{% include "header.twig"%}
+
+{% endblock %}
+
+{% block content %}
+
+	<!--===================== First Section ========================-->
+	<div class="first-section not-images bg2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="text">
+						<h1>Currency Calculator</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cloud">&nbsp;</div>
+		<div class="cloud-two">&nbsp;</div>
+		<div class="mini-cloud"></div>
+		<div class="mini-cloud two"></div>
+	</div>
+	<!--===================== End of First Section ========================-->
+	<!--===================== Calculator ========================-->
+	<div class="calculator">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-12 pr-lg-0">
+					<div class="calculator-info">
+						<img src="{{ site.theme.link }}/assets/img/icon-b.svg" alt="icon-b">
+						<h5><span>Calculated for</span>1 BTC = $ 10597.2</h5>
+						<form>
+							<div class="form-group first">
+								<label>Hashing Power</label>
+								<input type="number" class="power" placeholder="4730">
+								<div class="select">
+									<select name="tn">
+										<option value="ths">TH/s</option>
+										<option value="ths">H/s</option>
+										<option value="ths">MH/s</option>
+										<option value="ths">GH/s</option>
+									</select>
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa"/></g><g><use fill="#20add0" xlink:href="#b3tqb"/></g></g></g></svg>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>Power consumption (w)</label>
+								<input type="number" class="consumption" placeholder="1293">
+							</div>
+							<div class="form-group">
+								<label>Cost per KW/h ($)</label>
+								<input type="number" class="cost-per" placeholder="0.12">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-xl-8 col-lg-8 col-12 pl-lg-0">
+					<!--===================== Nav Pills ========================-->
+					<ul class="nav nav-pills" id="pills-tab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="pills-contact-tab-btc" data-toggle="pill" href="#pills-contact-btc" role="tab" aria-controls="pills-contact-btc" aria-selected="true">BTC</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-contact-tab-eth" data-toggle="pill" href="#pills-contact-eth" role="tab" aria-controls="pills-contact-eth" aria-selected="false">ETH</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-contact-tab-etc" data-toggle="pill" href="#pills-contact-etc" role="tab" aria-controls="pills-contact-etc" aria-selected="false">ETC</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-contact-tab-xmr" data-toggle="pill" href="#pills-contact-xmr" role="tab" aria-controls="pills-contact-xmr" aria-selected="false">XMR</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-contact-tab-zek" data-toggle="pill" href="#pills-contact-zek" role="tab" aria-controls="pills-contact-tab-zek" aria-selected="false">ZEK</a>
+						</li>
+					</ul>
+					<!--===================== End of Nav Pills ========================-->
+					<!--===================== Tab Content ========================-->
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-contact-btc" role="tabpanel" aria-labelledby="pills-contact-tab-btc">
+							<ul class="info-button list-unstyled">
+								<li>Profit ratio per day <output class="day">251,052%</output></li>
+								<li>Profit per month <output class="month">$ 280.46 K</output></li>
+							</ul>
+							<ul class="list-unstyled first">
+								<li>Profit per day<output class="day2">$9,348.79</output></li>
+								<li>Profit per week<output class="week2">$65.44 K</output></li>
+								<li>Profit per month<output class="month2">$280.46 K</output></li>
+								<li>Profit per year<output class="year2">$3.41 M</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Mined/day<output class="day3">Ƀ 0.8825</output></li>
+								<li>Mined/week<output class="week3">Ƀ 6.18</output></li>
+								<li>Mined/month<output class="month3">Ƀ 26.48</output></li>
+								<li>Mined/year<output class="year3">Ƀ 322.13</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Power cost/Day<output class="day4">$3.72</output></li>
+								<li>Power cost/Week<output class="week4">$26.07</output></li>
+								<li>Power cost/Month<output class="month4">$111.72</output></li>
+								<li>Power cost/Year<output class="year4">$1,359.20</output></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="pills-contact-eth" role="tabpanel" aria-labelledby="pills-contact-tab-eth">
+							<ul class="info-button list-unstyled">
+								<li>Profit ratio per day <output class="day">251,052%</output></li>
+								<li>Profit per month <output class="month">$ 280.46 K</output></li>
+							</ul>
+							<ul class="list-unstyled first">
+								<li>Profit per day<output class="day2">$9,348.79</output></li>
+								<li>Profit per week<output class="week2">$65.44 K</output></li>
+								<li>Profit per month<output class="month2">$280.46 K</output></li>
+								<li>Profit per year<output class="year2">$3.41 M</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Mined/day<output class="day3">Ƀ 0.8825</output></li>
+								<li>Mined/week<output class="week3">Ƀ 6.18</output></li>
+								<li>Mined/month<output class="month3">Ƀ 26.48</output></li>
+								<li>Mined/year<output class="year3">Ƀ 322.13</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Power cost/Day<output class="day4">$3.72</output></li>
+								<li>Power cost/Week<output class="week4">$26.07</output></li>
+								<li>Power cost/Month<output class="month4">$111.72</output></li>
+								<li>Power cost/Year<output class="year4">$1,359.20</output></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="pills-contact-etc" role="tabpanel" aria-labelledby="pills-contact-tab-etc">
+							<ul class="info-button list-unstyled">
+								<li>Profit ratio per day <output class="day">251,052%</output></li>
+								<li>Profit per month <output class="month">$ 280.46 K</output></li>
+							</ul>
+							<ul class="list-unstyled first">
+								<li>Profit per day<output class="day2">$9,348.79</output></li>
+								<li>Profit per week<output class="week2">$65.44 K</output></li>
+								<li>Profit per month<output class="month2">$280.46 K</output></li>
+								<li>Profit per year<output class="year2">$3.41 M</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Mined/day<output class="day3">Ƀ 0.8825</output></li>
+								<li>Mined/week<output class="week3">Ƀ 6.18</output></li>
+								<li>Mined/month<output class="month3">Ƀ 26.48</output></li>
+								<li>Mined/year<output class="year3">Ƀ 322.13</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Power cost/Day<output class="day4">$3.72</output></li>
+								<li>Power cost/Week<output class="week4">$26.07</output></li>
+								<li>Power cost/Month<output class="month4">$111.72</output></li>
+								<li>Power cost/Year<output class="year4">$1,359.20</output></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="pills-contact-xmr" role="tabpanel" aria-labelledby="pills-contact-tab-xmr">
+							<ul class="info-button list-unstyled">
+								<li>Profit ratio per day <output class="day">251,052%</output></li>
+								<li>Profit per month <output class="month">$ 280.46 K</output></li>
+							</ul>
+							<ul class="list-unstyled first">
+								<li>Profit per day<output class="day2">$9,348.79</output></li>
+								<li>Profit per week<output class="week2">$65.44 K</output></li>
+								<li>Profit per month<output class="month2">$280.46 K</output></li>
+								<li>Profit per year<output class="year2">$3.41 M</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Mined/day<output class="day3">Ƀ 0.8825</output></li>
+								<li>Mined/week<output class="week3">Ƀ 6.18</output></li>
+								<li>Mined/month<output class="month3">Ƀ 26.48</output></li>
+								<li>Mined/year<output class="year3">Ƀ 322.13</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Power cost/Day<output class="day4">$3.72</output></li>
+								<li>Power cost/Week<output class="week4">$26.07</output></li>
+								<li>Power cost/Month<output class="month4">$111.72</output></li>
+								<li>Power cost/Year<output class="year4">$1,359.20</output></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="pills-contact-zekt" role="tabpanel" aria-labelledby="pills-contact-tab-zek">
+							<ul class="info-button list-unstyled">
+								<li>Profit ratio per day <output class="day">251,052%</output></li>
+								<li>Profit per month <output class="month">$ 280.46 K</output></li>
+							</ul>
+							<ul class="list-unstyled first">
+								<li>Profit per day<output class="day2">$9,348.79</output></li>
+								<li>Profit per week<output class="week2">$65.44 K</output></li>
+								<li>Profit per month<output class="month2">$280.46 K</output></li>
+								<li>Profit per year<output class="year2">$3.41 M</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Mined/day<output class="day3">Ƀ 0.8825</output></li>
+								<li>Mined/week<output class="week3">Ƀ 6.18</output></li>
+								<li>Mined/month<output class="month3">Ƀ 26.48</output></li>
+								<li>Mined/year<output class="year3">Ƀ 322.13</output></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li>Power cost/Day<output class="day4">$3.72</output></li>
+								<li>Power cost/Week<output class="week4">$26.07</output></li>
+								<li>Power cost/Month<output class="month4">$111.72</output></li>
+								<li>Power cost/Year<output class="year4">$1,359.20</output></li>
+							</ul>
+						</div>
+					</div>
+					<!--===================== End of Tab Content ========================-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===================== End of Calculator ========================-->
+	<!--===================== End of First Section ========================-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-1"></div>
+			<div class="col-xl-10 pr-2 pl-2">
+				<div class="text-head text-center">
+					<h5>Questions</h5>
+					<h2 class="h2-main">Questions you often ask</h2>
+				</div>
+				<!--===================== Accordion ========================-->
+				<div id="accordion" class="animatedParent">
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-250">
+						<div class="accordion-header" id="headingOne">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">How to Identify a Bitcoin or Ethereum Cloud Mining Scam?<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-500">
+						<div class="accordion-header" id="heading2">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">What is a Merkle Tree?<svg version="1.1" id="Layer_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-750">
+						<div class="accordion-header" id="heading3">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">How does a Bitcoin node verify a transaction?<svg version="1.1" id="Layer_17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+					<!--===================== Accordion Content ========================-->
+					<div class="accordion-content animated bounceInUp delay-1000">
+						<div class="accordion-header" id="heading4">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">How Does Bitcoin Cryptography work?<svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+						</div>
+						<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+							<div class="accordion-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!--===================== End of Accordion Content ========================-->
+				</div>
+				<!--===================== End of Accordion ========================-->
+			</div>
+			<div class="col-xl-1"></div>
+		</div>
+	</div>
+
+
+{% endblock %}	

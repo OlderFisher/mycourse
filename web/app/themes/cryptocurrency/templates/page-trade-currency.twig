@@ -1,0 +1,145 @@
+{% extends "base.twig" %}
+
+{% block header %}
+
+	<body>
+		<div class="wrapper">
+
+					{% include "header.twig"%}
+
+{% endblock %}
+
+{% block content %}
+
+<!--===================== First Section ========================-->
+	<div class="first-section not-images">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="text">
+						<h1>Trade Currency</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cloud">&nbsp;</div>
+		<div class="cloud-two">&nbsp;</div>
+		<div class="mini-cloud"></div>
+		<div class="mini-cloud two"></div>
+	</div>
+	<!--===================== End of First Section ========================-->
+	<!--===================== Table Currency ========================-->
+	<div class="table-currency">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<table id="table">
+						<thead>
+							<tr>
+								<td><b class="name">Name</b><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa"/></g><g><use fill="#20add0" xlink:href="#b3tqb"/></g></g></g></svg></td>
+								<td><b class="name asc">Price</b><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa2" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb2" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa2"/></g><g><use fill="#20add0" xlink:href="#b3tqb2"/></g></g></g></svg></td>
+								<td><b class="name desc">24 hr% Change</b><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa3" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb3" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa3"/></g><g><use fill="#20add0" xlink:href="#b3tqb3"/></g></g></g></svg></td>
+								<td><b class="name asc">Market Cap</b><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa4" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb4" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa4"/></g><g><use fill="#20add0" xlink:href="#b3tqb4"/></g></g></g></svg></td>
+								<td><b class="name desc">24hr Volume</b><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa5" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb5" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa5"/></g><g><use fill="#20add0" xlink:href="#b3tqb5"/></g></g></g></svg></td>
+								<td><b class="name">Price Graph</b><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="15" viewBox="0 0 8 15"><defs><path id="b3tqa6" d="M226.14 444.68l3.43-4.86a.17.17 0 0 0 .02-.18.17.17 0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.08.06 0 .11-.03.14-.08z"/><path id="b3tqb6" d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 0 0-.28 0z"/></defs><g><g transform="translate(-222 -430)"><g><use fill="#20add0" xlink:href="#b3tqa6"/></g><g><use fill="#20add0" xlink:href="#b3tqb6"/></g></g></g></svg></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/bitcoin.svg" alt="bitcoin"><b>Bitcoin</b></td>
+								<td><b>$10 597.2</b></td>
+								<td><span>-2.45%</span></td>
+								<td>$73.99 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/ethereum.svg" alt="bitcoin"><b>Ethereum</b></td>
+								<td><b>$288.92</b></td>
+								<td><span>-0.28%</span></td>
+								<td>$27.43 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/bitcoin.svg" alt="bitcoin"><b>Bitcoin Cash</b></td>
+								<td><b>$1 524</b></td>
+								<td><span>-2.45%</span></td>
+								<td>$73.99 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/ripple.svg" alt="bitcoin"><b>Ripple</b></td>
+								<td><b>0.24540</b></td>
+								<td><span>-0.28%</span></td>
+								<td>$27.43 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/iota.svg" alt="bitcoin"><b>IOTA</b></td>
+								<td><b>$2.63000</b></td>
+								<td><span>-2.45%</span></td>
+								<td>$73.99 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/bitcoin.svg" alt="bitcoin"><b>Bitcoin Gold</b></td>
+								<td><b>$10 597.2</b></td>
+								<td><span>-2.45%</span></td>
+								<td>$73.99 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/ethereum.svg" alt="bitcoin"><b>Ethereum Classic</b></td>
+								<td><b>$288.92</b></td>
+								<td><span>-0.28%</span></td>
+								<td>$27.43 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/omisego.svg" alt="bitcoin"><b>OmiseGO</b></td>
+								<td><b>$10 597.2</b></td>
+								<td><span>-2.45%</span></td>
+								<td>$73.99 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/ethereum.svg" alt="bitcoin"><b>Ethereum</b></td>
+								<td><b>$288.92</b></td>
+								<td><span>-0.28%</span></td>
+								<td>$27.43 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/bitcoin.svg" alt="bitcoin"><b>Bitcoin</b></td>
+								<td><b>$10 597.2</b></td>
+								<td><span>-2.45%</span></td>
+								<td>$73.99 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+							<tr>
+								<td><img src="{{ site.theme.link }}/assets/img/ethereum.svg" alt="bitcoin"><b>Ethereum</b></td>
+								<td><b>$288.92</b></td>
+								<td><span>-0.28%</span></td>
+								<td>$27.43 B</td>
+								<td>$4 588</td>
+								<td><img src="{{ site.theme.link }}/assets/img/graphic1.svg" alt="graphic1"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===================== End of Table Currency ========================-->
+
+
+{% endblock %}	
